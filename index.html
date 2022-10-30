@@ -64,6 +64,11 @@
 <!-- Navbar End -->
 <!-- Home Section -->
 <section class="home d-flex align-items-center">
+  <div class="effect-wrap">
+    <i class="fas fa-plus effect effect-1"></i>
+    <i class="fas fa-plus effect effect-2"></i>
+    <i class="fas fa-circle-notch effect effect-3"></i>
+  </div>
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-7">
@@ -72,19 +77,31 @@
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
           <div class="home-btn">
             <a href="#" class="btn btn-1">Download App</a>
+            <button type="button" class="btn btn-1 video-play-btn">
+              <i class="fas fa-play"></i>
+            </button>
           </div>
         </div>
       </div>
-      <div class="col-md-5 bg-danger text-center">
+      <div class="col-md-5 text-center">
         <div class="home-img">
           <div class="circle">
-          </divc>
+          </div>
           <img src="img/app-screenshots/1.png" alt="StreetFood App">
         </div>
       </div>
     </div>
   </div>
 </section>
+<!-- Video popup -->
+<div class="video-popup">
+  <div class="video-popup-inner">
+    <i class="fas fa-times video-popup-close"></i>
+    <div class="iframe-box">
+      <iframe id= "player-1" src="https://www.youtube.com/embed/OrlnX9zM5-k" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
 
 
  
